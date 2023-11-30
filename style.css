@@ -15,6 +15,7 @@ body{
     width: 100vw;
     justify-content: center;
     align-items: center;
+    overflow: hidden;
 }
 
 .container{
@@ -170,7 +171,7 @@ input:focus{
     color: white;
     border: 0;
     box-shadow: 0 7px 11px #5315cf38;
-    
+    transition:  all 0.5s ease;    
 }
 .direction{
     margin-top: 4vh;
